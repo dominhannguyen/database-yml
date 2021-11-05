@@ -50,3 +50,15 @@ production:
   database: dominhannguyen
   username: _RocketElevator
   password: <%= ENV['SQLAPP_DATABASE_PASSWORD'] %>
+
+
+
+secondbase:
+  development:
+    adapter: postgresql
+    database: myapp_development
+  test:
+    adapter: postgresql
+    database: myapp_test
+
+
